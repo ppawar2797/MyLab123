@@ -35,7 +35,6 @@ pipeline{
         //Stage3 : Publish to Nexus
         stage ('Publish to Nexus'){
             steps{
-<<<<<<< HEAD
                 nexusArtifactUploader artifacts:
                 [[artifactId: 'VinayDevOpsLab',
                 classifier: '',
