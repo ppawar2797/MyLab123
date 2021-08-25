@@ -54,7 +54,7 @@ pipeline{
         stage ('Print Environment variables') {
             steps {
                 echo "Artifact Id is '${ArtifactId}'"
-                echo "Version  is '${ArtifactId}'"
+                echo "Version  is '${Version}'"
                 echo "GroupId is '${GroupId}'"
                 echo "Name is '${Name}'"
             }
