@@ -7,10 +7,10 @@ pipeline{
 
     // Adding Environment Directive.
     environment {
-        ArtifactId = readMavenPom.getArtifactId()
-        Version = readMavenPom.getVersion()
-        Name = readMavenPom.getName()
-        GroupId = readMavenPom.getGroupId()
+        ArtifactId = readMavenPom.getartifactId()
+        Version = readMavenPom.getversion()
+        Name = readMavenPom.getname()
+        GroupId = readMavenPom.getgroupId()
     }
 
 
