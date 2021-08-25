@@ -6,7 +6,7 @@ pipeline{
     }
 
     // Adding Environment Directive.
-    environment{
+    environment {
         ArtifactId = readMavenPom.getArtifactId()
         Version = readMavenPom.getVersion()
         Name = readMavenPom.getName()
